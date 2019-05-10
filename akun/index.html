@@ -22,75 +22,127 @@
 		    <span class="navbar-toggler-icon"></span>
 		  	</button>
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    	<ul class="navbar-nav mr-auto">
-		      		<li class="nav-item ">
+		    	<form class="form-inline mr-auto">
+		      		<input class="form-control bg-darkgrey text-white border mr-sm-2 border border-0" type="search" placeholder="Temukan" aria-label="Search">
+		      		<button class="btn btn-outline-dark text-white my-2 my-sm-0" type="submit">Cari</button>
+		    	</form>
+		    	<ul class="navbar-nav form-inline my-2 my-lg-0">
+		      		<li class="nav-item">
 		        		<a class="nav-link" href="./beranda.html">Beranda </a>
 		      		</li>
 		      		<li class="nav-item">
-		        		<a class="nav-link" href="./jelajah.html">Jelajahi</a>
+		        		<a class="nav-link" href="./jelajah.html">Jelajahi </a>
 		      		</li>
 		      		<li class="nav-item">
 		        		<a class="nav-link" href="./obrolan.html">Obrolan</a>
 		      		</li>
-		      		<li class="nav-item">
+		      		<li class="nav-item ">
 		        		<a class="nav-link" href="./turnamen.html">Turnamen</a>
 		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link active" href="./akun.html">Uqon <span class="sr-only">(current)</span></a>
+		      		<li class="nav-item active">
+		        		<a class="nav-link" href="./">Uqon</a>
 		      		</li>
 		    	</ul>
-		    	<form class="form-inline my-2 my-lg-0">
-		      		<input class="form-control bg-dark text-white border mr-sm-2 border border-0" type="search" placeholder="Cari" aria-label="Search">
-		      		<button class="btn btn-outline-dark text-white my-2 my-sm-0" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
-		    	</form>
 		  	</div>
 		</nav>
     </header>
-    <div class="p-3 mb-2 bg-dark text-white pt-5 rounded">
-    	<div class="text-center">
-  			<img src="../img/coverselamat.png" class="rounded img-fluid shadow pt-4" alt="Selamat datang di GameQu">
+    <br>
+    <br>
+    <nav aria-label="breadcrumb">
+    	<h6>
+		  	<ol class="breadcrumb bg-dark text-white">
+		    	<li class="breadcrumb-item"><a href="./beranda.html" style="text-decoration:none"><small>Beranda</small></a></li>
+	    		<li class="breadcrumb-item active text-white" aria-current="page"><small>Profil</small></li>
+		  	</ol>
+	    </h6> 
+	</nav>
+    <div class="bg-dark text-white rounded">
+    	<div class="p-3 media">
+			<img class="media-left rounded mr-3" width="80px" alt="Profil" src="../img/profil2.jpg">
+			<div class="media-body">
+				<h4 class="card-title mt-2">Uqon</h4>
+				<small>furqonauqon</small>
+	   		</div>
 		</div>
     </div>
-    <div>
-	    <div class="col-lg-12 col-md-12">
-	    	<br>
-	        <h6>Genre Populer</h6>
-	    </div>
-	    <div>
-	    	<div class="row p-3">
-		        <div class="col-md-3 col-lg-2">
-					<div class="wadah">
-					  	<img src="img/horor.jpg" alt="Snow" style="width:100%; margin-bottom:25px;" class="rounded">
-					  	<div class="centered">Horor</div>
-					</div> 
-	    		</div>
-	    		<div class="col-md-3 col-lg-2">
-					<div class="wadah">
-					  	<img src="img/petualangan.jpg" alt="Snow" style="width:100%; margin-bottom:25px;" class="rounded">
-					  	<div class="centered">Petualangan</div>
-					</div> 
-	    		</div>
-	    		<div class="col-md-3 col-lg-2">
-					<div class="wadah">
-					  	<img src="img/berpikir.jpg" alt="Snow" style="width:100%; margin-bottom:25px;" class="rounded">
-					  	<div class="centered">Berpikir</div>
-					</div> 
-	    		</div>
-	    		<div class="col-md-3 col-lg-2">
-					<div class="wadah">
-					  	<img src="img/olahraga.jpg" alt="Snow" style="width:100%; margin-bottom:25px;" class="rounded">
-					  	<div class="centered">OLahraga</div>
-					</div> 
-	    		</div>
-	    		<div class="col-md-3 col-lg-2">
-					<div class="wadah">
-					  	<img src="img/simulator.jpg" alt="Snow" style="width:100%; margin-bottom:25px;" class="rounded">
-					  	<div class="centered">Simulator</div>
-					</div> 
-	    		</div>
-    		</div>
-    	</div>
-    </div>
+    <br>
+    <div class="row">
+    	<div class="col-md-2 col-lg-2">
+			<ul class="nav flex-column">
+				<li class="nav-item">
+			    	<a class="nav-link active text-white bg-dark rounded-right" href="#">Profil</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-light" href="#">Teman</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-light" href="#">Galeri</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-light" href="#">Siaran Langsung</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link text-light" href="#">Pengaturan</a>
+			  	</li>
+			</ul>
+		</div>
+		<div class="col-md-7 col-lg-7">
+			<div>
+			    <div>
+				    <div class="col-lg-12 col-md-12">
+				        <div class="card bg-dark" style="margin-bottom:25px;">
+				        	<input class="form-control bg-dark text-white border border-0 p-3" type="search" placeholder="Tulis sesuatu" aria-label="Search">
+						    <div class="card-footer">
+						    	<small class="text-muted">Kiriman akan dibagikan sebagai publik</small><small> · Tambahkan foto</small>
+						    	<a class="btn btn-primary my-2 my-sm-0 btn-sm" href="#" role="button" style="float: right;">Terbitkan</a>
+						    </div>
+						  </div>
+				    </div>
+				    <div class="container">
+				    	<div>
+						  	<div class="card bg-dark" style="margin-bottom:25px;">
+						    	<div class="card-body">
+						    		<div class="media">
+										<img class="media-left rounded mr-3" width="27px" alt="Profil" src="../img/profil2.jpg">
+										<div class="media-body">
+											<a class="card-title mt-1">Uqon</a>
+											<a class="card-text" style="float: right;"><small class="text-muted">1 bulan yang lalu</small></a>
+											<p class="card-text mt-3"><small>Tes</small></p>
+							   			</div>
+									</div>
+						    	</div>
+						    	<div class="card-footer">
+						      		<input class="form-control bg-darkgrey text-white border border-0" type="search" placeholder="Tulis komentar..." aria-label="Search">
+						    	</div>
+						  	</div>
+						</div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<div class="col-md-3 col-lg-3">
+			<div class="container mb-3">
+				<div class="card bg-dark">
+			      	<div class="card-body">
+			        	<a class="card-title">Tentang</a>
+			      	</div>
+			      	<div class="card-footer">
+			      		<a><small class="card-text">Beginininini begitutututu</small></a>
+			      	</div>
+				</div>
+			</div>
+			<div class="container mb-3">
+				<div class="card bg-dark">
+			      	<div class="card-body">
+			        	<a class="card-title">Negara</a>
+			      	</div>
+			      	<div class="card-footer">
+			      		<a><small class="card-text">Indonesia</small></a>
+			      	</div>
+				</div>
+			</div>
+		</div>
+	</div>
     <!-- Menyisipkan JQuery dan Javascript Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
 </body>
